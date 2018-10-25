@@ -7,8 +7,6 @@ from codecs import open
 from setuptools import setup, find_packages
 
 REQUIRES = [
-    'numpy>=0.15.0',
-    'scikit-learn>=0.19.0',
     'pandas>=0.22.0',
 ]
 
@@ -24,7 +22,7 @@ with io.open(os.path.join(here, 'README.md'), encoding='utf-8') as f:
     long_description = '\n' + f.read()
 
 about = {}
-with open(os.path.join(here, 'sqterritory', '__version__.py'), 'r', 'utf-8') as f:
+with open(os.path.join(here, 'poieval', '__version__.py'), 'r', 'utf-8') as f:
         exec(f.read(), about)
 
 setup(
