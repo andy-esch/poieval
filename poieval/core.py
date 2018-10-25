@@ -56,3 +56,4 @@ def eval_nearest(nearest_df):
         <= 25 meters: {perc_close:.2f}%
         num misses: {num_misses}
     '''
+    return summary
